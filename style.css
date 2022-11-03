@@ -1,0 +1,595 @@
+/* FOR DESKTOP(ORIGINAL FORMAT)*/ 
+
+body{ 
+
+     background-color: mistyrose; 
+
+} 
+
+ 
+
+.header { 
+
+    display: flex; 
+
+    align-items: center; 
+
+    justify-content: center; 
+
+    padding-bottom: 40px; 
+
+} 
+
+ 
+
+.nav { 
+
+     cursor: pointer; 
+
+} 
+
+ 
+
+a { 
+
+     text-decoration: none; 
+
+} 
+
+ 
+
+img { 
+
+    padding: 20px 10px 40px 80px; 
+
+    width: 130px; 
+
+} 
+
+ 
+
+.nav ul li { 
+
+     display: inline; 
+
+     padding: 10px 10px; 
+
+     color: chocolate; 
+
+     list-style: none; 
+
+} 
+
+* { 
+
+ padding: 0; 
+
+ margin: 0; 
+
+} 
+
+ 
+
+.hero { 
+
+background-image: url(hero.jpg); 
+
+     background-repeat: no-repeat; 
+
+     background-size: cover; 
+
+     display: flex; 
+
+     text-align: center; 
+
+     justify-content: center; 
+
+     width: 100%; 
+     height: 130vh; 
+
+} 
+
+ 
+
+.hero h1 { 
+
+     padding-top: 80px; 
+
+    padding-bottom: 30px; 
+
+    font-size: 50px; 
+
+ 
+
+} 
+
+ 
+
+.hero p { 
+
+    font-size: 16px; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    justify-content: center; 
+
+    margin-left: 10%; 
+
+    margin-right: 10%; 
+
+    padding-bottom: 20px; 
+
+} 
+
+ 
+
+.button1 { 
+
+    margin-top: 30px; 
+
+    cursor: pointer; 
+
+    background-color: green; 
+
+    border: none; 
+
+    padding: 15px 30px; 
+
+    color: white; 
+
+    margin: 10px; 
+
+} 
+
+ 
+
+.button2 { 
+
+    margin-top: 30px; 
+
+    cursor: pointer; 
+
+    background-color: transparent; 
+
+    padding: 15px 30px; 
+
+} 
+
+ 
+
+.box { 
+
+ display: flex; 
+
+ text-align: center; 
+
+ justify-content: center; 
+
+ align-items: center; 
+
+ padding: 40px 0; 
+
+} 
+
+ 
+
+.box .card { 
+
+     position: relative; 
+
+     width: 320px; 
+
+     height: 320px; 
+
+     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); 
+
+     border-radius: 15px; 
+
+     margin: 30px; 
+
+} 
+
+ 
+
+.box .card .content { 
+
+ text-align: center; 
+
+ padding: 20px; 
+
+} 
+
+ 
+
+.box i { 
+
+ padding-bottom: 10px; 
+
+font-size: 50px; 
+
+color: darkgoldenrod; 
+
+} 
+
+ 
+
+h2{ 
+
+ display: flex; 
+
+ justify-content: center; 
+
+ padding-top: 50px; 
+
+ font-size: 30px; 
+
+ 
+
+} 
+
+ 
+
+.box p { 
+
+ padding-bottom: 10px; 
+
+ font-size: 16px; 
+
+ margin: 10px; 
+
+} 
+
+ 
+
+.footer { 
+
+    display: flex; 
+
+    justify-content: space-between; 
+
+    background-color: black; 
+
+    color: white; 
+
+    position: relative; 
+
+    margin: 0px; 
+
+ 
+
+} 
+
+ 
+
+.logo { 
+
+ display: flex; 
+
+ float: right; 
+
+ padding-right: 380px; 
+
+margin: auto; 
+
+ width: 100px; 
+
+} 
+
+ 
+
+.copy { 
+
+ display: flex; 
+
+float: left; 
+
+padding-left: 400px; 
+
+margin: auto;   
+} 
+
+ 
+
+/* FOR TABLET */ 
+
+@media screen and (max-width: 1008px) { 
+
+ 
+
+.header { 
+
+ padding-bottom: 30px; 
+
+} 
+
+
+
+img { 
+
+padding-bottom: 20px; 
+
+ justify-content: center; 
+
+ width: 80px; 
+
+ padding-left: 20px; 
+
+} 
+  
+
+.nav ul li { 
+
+ display: flex; 
+
+ justify-content: center; 
+
+padding-bottom: 0; 
+
+} 
+
+.hero h1 { 
+
+ padding-top: 50px; 
+
+padding-bottom: 20px; 
+
+ font-size: 40px; 
+
+} 
+
+ 
+
+.hero p { 
+ font-size: 16px; 
+
+ padding-bottom: 20px; 
+
+ padding-top: 20px; 
+
+} 
+
+ 
+
+.box { 
+
+display: flex; 
+
+flex-direction: column; 
+
+} 
+
+ 
+
+.box .card { 
+
+ margin: 20px; 
+
+width: 700px; 
+
+ height: 220px; 
+
+} 
+
+ 
+
+.box .card .content { 
+
+ padding: 10px; 
+
+} 
+
+ 
+
+.box i { 
+
+ padding-top: 15px; 
+
+ padding-bottom: 15px; 
+
+} 
+
+ 
+
+h2 { 
+
+padding-top: 30px; 
+
+} 
+
+ 
+
+.box h3 { 
+
+padding-top: 10px; 
+
+} 
+
+ 
+
+.box p { 
+
+ margin: 20px; 
+
+} 
+
+ 
+
+.footer { 
+
+ display: flex; 
+
+flex-direction: column; 
+
+ align-items: center; 
+
+} 
+
+ 
+
+.logo { 
+
+ padding-top: 30px; 
+padding-right: 0px; 
+
+ 
+
+} 
+
+ 
+
+.copy { 
+
+ padding-left: 0; 
+
+ margin-top: 1px;  
+
+} 
+
+} 
+
+ 
+
+/* FOR MOBILE PHONE */ 
+
+@media screen and (max-width: 730px) { 
+
+.header { 
+
+padding-bottom: 20px; 
+
+} 
+
+
+
+img { 
+
+ padding-bottom: 5px; 
+
+} 
+
+ 
+
+.hero { 
+
+ height: 50vh; 
+
+} 
+
+ 
+
+.hero h1 { 
+
+ padding-top: 20px; 
+ padding-bottom: 5px; 
+ font-size: 30px; 
+
+} 
+
+ 
+
+.hero p { 
+
+ font-size: 14px; 
+
+ padding-bottom: 10px; 
+
+ padding-top: 10px; 
+
+ margin-left: 5%; 
+
+ margin-right: 5%; 
+
+} 
+
+ 
+
+.button1 { 
+
+margin-top: 10px; 
+
+padding: 18px 32px; 
+
+} 
+
+ 
+
+.button2 { 
+
+margin-top: 10px; 
+
+ padding: 16px 30px; 
+
+} 
+
+ 
+
+.box .card { 
+
+margin: 10px; 
+ width: 300px; 
+height: 300px; 
+
+} 
+
+ 
+
+.box .card .content { 
+
+ padding: 10px; 
+
+} 
+
+ 
+
+.box i { 
+
+padding-top: 15px; 
+
+padding-bottom: 15px; 
+
+} 
+
+ 
+
+h2 { 
+
+padding-top: 30px; 
+
+} 
+
+ 
+
+.box h3 { 
+
+ padding-top: 10px; 
+
+} 
+
+ 
+
+.box p { 
+
+margin: 10px; 
+ font-size: 14px; 
+
+} 
+
+ 
+
+.logo { 
+
+ padding-top: 10px; 
+
+} 
+
+ 
+
+.copy { 
+
+ margin-top: 2px; 
+
+ font-size: 10px;
+}
+}
